@@ -4,7 +4,11 @@
   -webkit-text-fill-color: transparent;
 }
 
-
+#glow{
+	background: -webkit-linear-gradient(#fff, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 /* Style the list */
 ul.breadcrumb {
@@ -44,7 +48,7 @@ ul.breadcrumb {
   }
 
   thead th {
-    font-size: 1.3em;
+    font-size: 1.40vw;
     padding: 1px !important;
     height: 28px;
     
@@ -53,4 +57,3 @@ ul.breadcrumb {
   #Simplifi{
     margin-bottom: 1.5rem !important ;
   }
-
